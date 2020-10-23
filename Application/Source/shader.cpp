@@ -70,7 +70,7 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
 	// Compile Fragment Shader
 	printf("Compiling shader : %s\n", fragment_file_path);
 	char const * FragmentSourcePointer = FragmentShaderCode.c_str();
-	glShaderSource(FragmentShaderID, 1, &FragmentSourcePointer , NULL);
+	glShaderSource(FragmentShaderID, 0 , &FragmentSourcePointer , NULL);
 	glCompileShader(FragmentShaderID);
 
 	// Check Fragment Shader
