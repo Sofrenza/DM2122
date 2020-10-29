@@ -17,6 +17,7 @@ public:
     {
         GEO_TRIANGLE_1 = 0,
         GEO_TRIANGLE_2,
+        GEO_TRIANGLE_3,
         NUM_GEOMETRY,
     };
 
